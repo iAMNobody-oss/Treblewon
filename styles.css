@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Reset default margin and font for the body */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles for the header */
+header {
+    background-color: #ADD8E6; /* Light Blue color */
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Sticky header styles */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Container for football facts */
+.fact-container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Did you know text styles */
+.did-you-know {
+    color: #e74c3c; /* Red color */
+    font-weight: bold;
+}
+
+/* Fact text styles */
+.fact {
+    font-size: 18px;
+    margin-bottom: 10px; /* Add margin between facts */
+}
+
+/* Style for the hyperlink */
+.fact a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fact a:hover {
+    text-decoration: underline;
+}
+
+/* Container for the link */
+.link-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Style for the link */
+.interesting-fact-link {
+    color: #3498db; /* Adjust the color as needed */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
